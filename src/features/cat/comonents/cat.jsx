@@ -12,8 +12,7 @@ const CatWrapper = styled.div`
   margin: 0 auto;
 `;
 const ImgWrap = styled.div`
-  display: flex;
-  justify-content: center;
+  text-align: center;  
 `;
 const ImgCat = styled.img`
   max-width: 100%;
