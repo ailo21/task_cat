@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import catSlice from "../features/cat/catSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    cat: catSlice
   },
 });
