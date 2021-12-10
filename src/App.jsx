@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import Cat from './features/cat/comonents/cat';
+import Cat from './components/cat';
 
 const AppDiv = styled.div`
   display: flex;
-  align-items: center;
-  height: 100vh;
+  align-items: center; 
 `;
 
 function App() {
